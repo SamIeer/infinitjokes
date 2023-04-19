@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/* heading and navbar */
+#headline{
+    border: 2px solid goldenrod;
+}
+
+/* main container */
+.container{
+    border: 2px  solid black;
+    height: 65vh; width:55vw;
+    position: absolute;
+    top:12vw; left:20vw;
+    border-radius: 2vw;
+}
+
+.yolo{
+    display: grid;
+    grid-template-rows: 4vw 20vw 8vw;
+}
+
+span{
+    border:2px solid black;
+    border-radius: 2vw;
+    text-align: center;
+}
+
+.word{
+    padding-top: 0.5vw;
+    font-size: xx-large;
+}
+
+#here{
+    padding-top: 4.5vw;
+    font-size: 25px;
+}
+
+#generator {
+    padding-top: 2.5vw;
+    cursor: pointer;
+    font-size: 25px;}
+
+#pjoke{
+    border: 2px solid black;
+    display: inline;
+    padding: 1vw 1vw;
+    border-radius: 3vw;}
