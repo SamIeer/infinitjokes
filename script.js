@@ -59,7 +59,7 @@ clrr=[`#72ffe5f5`,`#e01eb6`,`#2de01ec2`,`#e058ff`,`#ff5858`]
       // changing the coloor of text when it change
       const clss = Math.floor(Math.random() * clrr.length);
       hahah.style.color = `${clrr[clss]}` ;
-      hahah.style.transition = "all 3s";
+      hahah.style.transition = "all 2s";
       hahah.style.transform = "rotate(360deg)";
      
 
