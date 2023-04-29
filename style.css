@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Dancing+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Heebo&family=Pacifico&family=Shadows+Into+Light&family=Sigmar&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Heebo&family=Pacifico&family=Shadows+Into+Light&family=Sigmar&display=swap');
 
 body{
     padding: 0;
     margin: 0;}
 /* heading and navbar */
 #headline{
+    
     display: flex;
     border: 2px solid goldenrod;
     font-size:25px;
-    height: 14vh;
+    height: 100px;
     font-family: 'Delicious Handrawn', cursive;
 }
 
@@ -84,3 +85,9 @@ svg {
     border-radius: 3vw;
     box-shadow: 0.2rem 0.3rem 1rem  #252525;
 }
+
+@media (max-width: 600px) {
+   .container {
+      background-color: rgb(1, 136, 181);
+    }
+  }
