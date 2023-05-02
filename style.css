@@ -54,40 +54,32 @@ svg {
      stroke:rgb(11,45,240);
      stroke-width: 2px;
      fill: transparent;
-     animation: anim  3s infinite alternate; 
- }
+     animation: anim  3s infinite alternate; }
  
  @keyframes anim{
      from{stroke-dasharray:0 70%;}
      to{stroke-dasharray: 50% 0;
-     stroke-dashoffset: 10%;}
- }
+     stroke-dashoffset: 10%;}}
 
 
 #here{
     padding-top: 4.5vw;
     font-size: 29px;
-    padding: 30px 100px;
-    
-}
+    padding: 30px 100px;}
 
 #generator {
     padding-top: 2.5vw;
     cursor: pointer;
     font-size: 35px;
-    font-family: 'Dancing Script', cursive;
-}
+    font-family: 'Dancing Script', cursive;}
 
 #pjoke{
     border: 2px solid black;
     display: inline;
     padding: 1vw 1vw;
     border-radius: 3vw;
-    box-shadow: 0.2rem 0.3rem 1rem  #252525;
-}
+    box-shadow: 0.2rem 0.3rem 1rem  #252525;}
 
 @media (max-width: 600px) {
    .container {
-      background-color: rgb(1, 136, 181);
-    }
-  }
+      background-color: rgb(1, 136, 181);}}
